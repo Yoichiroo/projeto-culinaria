@@ -4,7 +4,7 @@
     margin: 0;
     padding: 0;
     border: none;
-    box-sizing: none;
+    box-sizing: border-box;
 }
 
 .material-symbols-outlined {
