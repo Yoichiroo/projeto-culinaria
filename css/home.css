@@ -166,6 +166,7 @@ main h2.escolha {
 .receita-texto {
     padding: 0.5em 1em;
     text-align: justify;
+    font-family: var(--fonte2);
 }
 
 .junte-se {
