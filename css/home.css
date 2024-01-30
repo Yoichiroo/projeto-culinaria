@@ -99,3 +99,82 @@ main h2.escolha {
     color: var(--vermelho-principal);
     margin: 0.5em 0 0.5em 0;
 }
+
+.receitas-hoje {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.receita-hoje {
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+    border-radius: 0 0 20px 20px;
+    padding-bottom: 0.5em;
+}
+
+.receita-hoje, .receita-hoje .imagem-receita {
+    width: 300px;
+}
+
+.receita-hoje .imagem-receita img {
+    width: 100%;
+    border-radius: 15px 15px 0px 0px;
+}
+
+.receita-texto h2 {
+    font-family: var(--fonte1);
+    color: var(--vermelho-principal);
+    font-size: 1.1em;
+    margin-bottom: 0.5em;
+}
+
+.img-perfil {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    flex-wrap: nowrap;
+    margin-bottom: 0.2em;
+    font-family: var(--fonte2);
+    font-size: 0.8em;
+}
+
+.img-perfil figure {
+    width: 30px;
+    margin-right: 0.5em;
+}
+
+.img-perfil figure img {
+    width: 100%;
+    border-radius: 50%;
+}
+
+.receita-texto {
+    padding: 0.5em 1em;
+    text-align: justify;
+}
+
+.junte-se {
+    margin: 1em 0;
+    padding: 2em;
+    background-color: var(--verde-principal);
+    text-align: center;
+}
+
+.junte-se h1, .junte-se h2 {
+    font-family: var(--fonte1);
+    margin-bottom: ;
+}
+
+.junte-se h2 {
+    font-size: 1.1em;
+    font-weight: normal;
+}
+
+.junte-se button {
+    width: 400px;
+    height: 40px;
+    border-radius: 10px;
+    font-weight: bolder;
+    font-family: var(--fonte1);
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+}
