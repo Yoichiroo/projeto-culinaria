@@ -250,6 +250,8 @@ footer .logo {
 
 .utilidades ul li {
     margin: 1em;
+    cursor: pointer;
+    color: var(--cinza);
 }
 
 .redes-sociais {
