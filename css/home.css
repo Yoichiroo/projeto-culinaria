@@ -10,11 +10,14 @@ header {
     align-items: center;
     position: sticky;
     top: -1px;
-    font-family: var(--fonte1);
     font-weight: normal;
     background-color: var(--branco);
     padding: 0.5em;
     cursor: default;
+}
+
+.logo {
+    font-family: var(--fonte1);
 }
 
 nav {
@@ -223,4 +226,42 @@ main h2.escolha {
     border: 5px solid var(--branco);
     border-radius: 50%;
     padding: 0.2em;
+}
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    padding: 1em;
+    align-items: flex-start;
+}
+
+footer .logo {
+    width: 200px;
+    font-size: 0.5em;
+}
+
+.utilidades {
+    font-family: var(--fonte2);
+}
+
+.utilidades ul {
+    list-style-type: none;
+}
+
+.utilidades ul li {
+    margin: 1em;
+}
+
+.redes-sociais {
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+.rede-social {
+    width: 40px;
+    margin: 0 0.2em;
+}
+
+.rede-social figure, .rede-social figure img {
+    width: 100%;
 }
