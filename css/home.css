@@ -200,7 +200,7 @@ main h2.escolha {
 }
 
 .junte-se button {
-    width: 400px;
+    width: 350px;
     height: 40px;
     border-radius: 10px;
     margin: 1em 0;
@@ -211,7 +211,7 @@ main h2.escolha {
 }
 
 .junte-se button:hover {
-    width: 420px;
+    width: 380px;
     height: 45px;
     font-size: 1.3em;
     cursor: pointer;
