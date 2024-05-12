@@ -1,5 +1,5 @@
 <h1>Cozinha Connect</h1>
-<div>
+<div display='flex'>
 <p>Logo do site:</p>
 
 ![cozinha-icon](https://github.com/Yoichiroo/projeto-culinaria/assets/109477475/7aa106ee-eb48-4127-ae20-1b0df6bdb475)
