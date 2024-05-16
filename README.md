@@ -11,7 +11,7 @@ Neste minimundo, o cliente pediu para desenvolver uma plataforma onde cozinheiro
 Não apenas isso, o cliente também poderia criar sua própria página de perfil e editar sua página como quiser. Claro, isto é apenas uma demonstração em HTML, CSS e JS. Não possuirá todas as funções 
 que um projeto em PHP possuiria. </p>
 
-<a href='yoichiroo.github.io/projeto-culinaria' target='__blank'>Visitar site</a>
+<a href='yoichiroo.github.io/projeto-culinaria'>Visitar site</a>
 
 <p>Esta é a Home, contém a escolha de hoje recomendada pelos desenvolvedores do sistema, uma call-action para se inscrever no site, notícias do mundo gastronômico e os favoritos da Cozinha Connect. Segue abaixo os prints com todas as seções do site.</p>
 
