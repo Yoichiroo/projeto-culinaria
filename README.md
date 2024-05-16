@@ -9,7 +9,7 @@
 <p>Aqui é um dos sites que utilizei o ChatGPT para imaginar um Minimundo. 
 Neste minimundo, o cliente pediu para desenvolver uma plataforma onde cozinheiros (sejam amadores ou profissionais) compartilham e avaliam receitas nos quais os mesmos publicam na rede social. 
 Não apenas isso, o cliente também poderia criar sua própria página de perfil e editar sua página como quiser. Claro, isto é apenas uma demonstração em HTML, CSS e JS. Não possuirá todas as funções 
-que um projeto em PHP possuiria. <a href='yoichiroo.github.io/projeto-culinaria'>Visitar site</a></p>
+que um projeto em PHP possuiria.</p>
 
 <p>Esta é a Home, contém a escolha de hoje recomendada pelos desenvolvedores do sistema, uma call-action para se inscrever no site, notícias do mundo gastronômico e os favoritos da Cozinha Connect. Segue abaixo os prints com todas as seções do site.</p>
 
