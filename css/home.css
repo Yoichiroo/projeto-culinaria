@@ -323,7 +323,6 @@ cursor: pointer;
 .favorito {
     width: 300px;
     background-color: var(--branco);
-    margin: 0 0.5em 1em 0.5em;
     font-family: var(--fonte2);
     text-align: justify;
     border-radius: 20px;
@@ -346,24 +345,27 @@ cursor: pointer;
 }
 
 .img-favorito {
+    border-radius: 10px 10px 0px 0px;
     margin: auto;
     overflow: hidden;
+    position: relative;
 }
 
 .img-favorito figure {
     width: 100%;
-    transition: .2s;
-} 
-
-.img-favorito figure:hover {
-    transform: scale(1.1);
-    border-radius: 15px 15px 0 0;
+    transition: transform 0.2s;
+    position: relative; /* Adicionando posição relativa */
+    display: block; /* Tornando a figura um bloco */
 }
 
-.img-favorito figure img {
-    width: 100%;
-    border-radius: 15px 15px 0px 0px;
-    transition: .2s;
+.img-favorito:hover figure {
+    transform: scale(1.1);
+}
+
+.img-favorito img {
+    width: 100%; /* Garantindo que a imagem ocupe 100% do contêiner */
+    height: auto; /* Mantendo a proporção da imagem */
+    display: block; /* Tornando a imagem um bloco */
 }
 
 .estrelas {
